@@ -1,0 +1,101 @@
+,Name,Nation,Team,Position,lowercase_name
+0,Mohamed Salah,Egypt,Liverpool,RM,mohamed salah
+1,Kylian Mbappé,France,Real Madrid,ST,kylian mbappe
+2,Ousmane Dembélé,France,Paris SG,ST,ousmane dembele
+3,Rodri,Spain,Manchester City,CDM,rodri
+4,Virgil van Dijk,Holland,Liverpool,CB,virgil van dijk
+5,Jude Bellingham,England,Real Madrid,CAM,jude bellingham
+6,Erling Haaland,Norway,Manchester City,ST,erling haaland
+7,Raphinha,Brazil,FC Barcelona,LM,raphinha
+8,Achraf Hakimi,Morocco,Paris SG,RB,achraf hakimi
+9,Lamine Yamal,Spain,FC Barcelona,RM,lamine yamal
+10,Vitinha,Portugal,Paris SG,CM,vitinha
+11,Gianluigi Donnarumma,Italy,Manchester City,GK,gianluigi donnarumma
+12,Pedri,Spain,FC Barcelona,CM,pedri
+13,Joshua Kimmich,Germany,FC Bayern München,CDM,joshua kimmich
+14,Alisson,Brazil,Liverpool,GK,alisson
+15,Harry Kane,England,FC Bayern München,ST,harry kane
+16,Federico Valverde,Uruguay,Real Madrid,CM,federico valverde
+17,Vini Jr.,Brazil,Real Madrid,LW,vini jr.
+18,Florian Wirtz,Germany,Liverpool,CAM,florian wirtz
+19,Thibaut Courtois,Belgium,Real Madrid,GK,thibaut courtois
+20,Robert Lewandowski,Poland,FC Barcelona,ST,robert lewandowski
+21,Lautaro Martínez,Argentina,Lombardia FC,ST,lautaro martinez
+22,Alexander Isak,Sweden,Liverpool,ST,alexander isak
+23,Jamal Musiala,Germany,FC Bayern München,CAM,jamal musiala
+24,Gabriel,Brazil,Arsenal,CB,gabriel
+25,Bukayo Saka,England,Arsenal,RW,bukayo saka
+26,Jan Oblak,Slovenia,Atlético de Madrid,GK,jan oblak
+27,Cole Palmer,England,Chelsea,CAM,cole palmer
+28,Khvicha Kvaratskhelia,Georgia,Paris SG,LW,khvicha kvaratskhelia
+29,Alessandro Bastoni,Italy,Lombardia FC,CB,alessandro bastoni
+30,Serhou Guirassy,Guinea,Borussia Dortmund,ST,serhou guirassy
+31,Kevin De Bruyne,Belgium,SSC Napoli,CM,kevin de bruyne
+32,Frenkie de Jong,Holland,FC Barcelona,CM,frenkie de jong
+33,Moisés Caicedo,Ecuador,Chelsea,CDM,moises caicedo
+34,Declan Rice,England,Arsenal,CDM,declan rice
+35,Marquinhos,Brazil,Paris SG,CB,marquinhos
+36,Yann Sommer,Switzerland,Lombardia FC,GK,yann sommer
+37,Jules Koundé,France,FC Barcelona,RB,jules kounde
+38,Bruno Fernandes,Portugal,Man Utd,CAM,bruno fernandes
+39,William Saliba,France,Arsenal,CB,william saliba
+40,Julián Alvarez,Argentina,Atlético de Madrid,ST,julian alvarez
+41,Jonathan Tah,Germany,FC Bayern München,CB,jonathan tah
+42,Alexis Mac Allister,Argentina,Liverpool,CM,alexis mac allister
+43,Mike Maignan,France,Milano FC,GK,mike maignan
+44,Martin Ødegaard,Norway,Arsenal,CM,martin degaard
+45,David Raya,Spain,Arsenal,GK,david raya
+46,Viktor Gyökeres,Sweden,Arsenal,ST,viktor gyokeres
+47,Nicolò Barella,Italy,Lombardia FC,CM,nicolo barella
+48,Victor Osimhen,Nigeria,Galatasaray,ST,victor osimhen
+49,Nuno Mendes,Portugal,Paris SG,LB,nuno mendes
+50,Antonio Rüdiger,Germany,Real Madrid,CB,antonio rudiger
+51,Michael Olise,France,FC Bayern München,RM,michael olise
+52,Trent Alexander-Arnold,England,Real Madrid,RB,trent alexander-arnold
+53,Rúben Dias,Portugal,Manchester City,CB,ruben dias
+54,Paulo Dybala,Argentina,AS Roma,CAM,paulo dybala
+55,Bruno Guimarães,Brazil,Newcastle Utd,CM,bruno guimaraes
+56,Willian Pacho,Ecuador,Paris SG,CB,willian pacho
+57,Ibrahima Konaté,France,Liverpool,CB,ibrahima konate
+58,Hakan Çalhanoğlu,Turkey,Lombardia FC,CDM,hakan calhanoglu
+59,Lionel Messi,Argentina,Inter Miami CF,RW,lionel messi
+60,Sandro Tonali,Italy,Newcastle Utd,CDM,sandro tonali
+61,Nico Williams,Spain,Athletic Club,LM,nico williams
+62,Tijjani Reijnders,Holland,Manchester City,CM,tijjani reijnders
+63,Marc-André ter Stegen,Germany,FC Barcelona,GK,marc-andre ter stegen
+64,Gregor Kobel,Switzerland,Borussia Dortmund,GK,gregor kobel
+65,Ederson,Brazil,Fenerbahçe,GK,ederson
+66,Federico Dimarco,Italy,Lombardia FC,LB,federico dimarco
+67,Scott McTominay,Scotland,SSC Napoli,CM,scott mctominay
+68,Ryan Gravenberch,Holland,Liverpool,CDM,ryan gravenberch
+69,Emiliano Martínez,Argentina,Aston Villa,GK,emiliano martinez
+70,João Neves,Portugal,Paris SG,CM,joao neves
+71,Antoine Griezmann,France,Atlético de Madrid,ST,antoine griezmann
+72,Bryan Mbeumo,Cameroon,Man Utd,RW,bryan mbeumo
+73,N'Golo Kanté,France,Al Ittihad,CDM,n'golo kante
+74,Désiré Doué,France,Paris SG,RW,desire doue
+75,Carvajal,Spain,Real Madrid,RB,carvajal
+76,Unai Simón,Spain,Athletic Club,GK,unai simon
+77,Marcus Thuram,France,Lombardia FC,ST,marcus thuram
+78,Péter Gulácsi,Hungary,RB Leipzig,GK,peter gulacsi
+79,Luis Díaz,Colombia,FC Bayern München,LM,luis diaz
+80,De Gea,Spain,Fiorentina,GK,de gea
+81,Nico Schlotterbeck,Germany,Borussia Dortmund,CB,nico schlotterbeck
+82,Heung Min Son,Korea Republic,LAFC,LW,heung min son
+83,Phil Foden,England,Manchester City,RW,phil foden
+84,Fabián Ruiz,Spain,Paris SG,CM,fabian ruiz
+85,Youri Tielemans,Belgium,Aston Villa,CM,youri tielemans
+86,Granit Xhaka,Switzerland,Sunderland,CDM,granit xhaka
+87,Karim Benzema,France,Al Ittihad,ST,karim benzema
+88,Iñigo Martínez,Spain,Al Nassr,CB,inigo martinez
+89,Cristiano Ronaldo,Portugal,Al Nassr,ST,cristiano ronaldo
+90,Rodrygo,Brazil,Real Madrid,RW,rodrygo
+91,Dani Olmo,Spain,FC Barcelona,CAM,dani olmo
+92,Dayot Upamecano,France,FC Bayern München,CB,dayot upamecano
+93,Patrik Schick,Czech Republic,Leverkusen,ST,patrik schick
+94,Bremer,Brazil,Juventus,CB,bremer
+95,Theo Hernández,France,Al Hilal,LB,theo hernandez
+96,Marcos Llorente,Spain,Atlético de Madrid,RB,marcos llorente
+97,Rodrigo De Paul,Argentina,Inter Miami CF,CM,rodrigo de paul
+98,João Cancelo,Portugal,Al Hilal,RB,joao cancelo
+99,Sancet,Spain,Athletic Club,CAM,sancet
