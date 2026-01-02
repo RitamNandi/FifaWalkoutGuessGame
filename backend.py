@@ -12,10 +12,16 @@ print("Nation: " + player["Nation"])
 print("Club: " + player["Team"])
 print("Position: " + player["Position"])
 
-while True:
+MAX_NUMBER_GUESSES = 4
+
+for i in range (1, MAX_NUMBER_GUESSES + 1):
     guess = input("Enter guess for player: ")
     if guess.lower() in lower_answer and len(guess) >= 4:
         print("\033[92m(Correct): " + answer + "\033[0m")
         break
     else:
-        print("\033[91m(Try again)\033[0m")
+        if i < MAX_NUMBER_GUESSES:
+            print(f"\033[91m(Try again) {str(i)}/{str(MAX_NUMBER_GUESSES)} guesses used\033[0m")
+        else:
+            # they got the final guess wrong
+            print(f"\033[91m{answer}\033[0m")
