@@ -14,7 +14,7 @@ print("Position: " + player["Position"])
 
 while True:
     guess = input("Enter guess for player: ")
-    if guess.lower() in lower_answer:
+    if guess.lower() in lower_answer and len(guess) >= 4:
         print("\033[92m(Correct): " + answer + "\033[0m")
         break
     else:
