@@ -7,7 +7,7 @@ def normalize_names(name):
     normalized_name = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('ASCII')
     return normalized_name.lower()
 
-number_of_players = 100 # Constant for number of players in the game
+number_of_players = 200 # Constant for number of players in the game
 
 features = ['Name', 'Nation', 'Team', 'Position']
 df = pd.read_csv('fc_26_players_stats.csv', nrows = number_of_players, usecols=features)

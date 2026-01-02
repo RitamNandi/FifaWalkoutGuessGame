@@ -3,7 +3,7 @@ import pandas as pd
 
 df = pd.read_csv('top_N_players_features.csv')
 
-RNG = random.randint(0, 99)
+RNG = random.randint(0, 199)
 player = df.iloc[RNG].to_dict()
 answer = player["Name"]
 lower_answer = player["lowercase_name"]
