@@ -16,7 +16,7 @@ MAX_NUMBER_GUESSES = 4
 
 for i in range (1, MAX_NUMBER_GUESSES + 1):
     guess = input("Enter guess for player: ")
-    if guess.lower() in lower_answer and len(guess) >= 4:
+    if guess.lower() in lower_answer and len(guess) >= 3:
         print("\033[92m(Correct): " + answer + "\033[0m")
         break
     else:
