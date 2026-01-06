@@ -3,6 +3,7 @@ from pydantic import BaseModel
 import pandas as pd
 import random
 import uuid
+from fastapi.middleware.cors import CORSMiddleware
 
 class GuessRequest(BaseModel):
     game_id: str
@@ -12,6 +13,12 @@ df = pd.read_csv('top_N_players_features.csv')
 
 app = FastAPI()
 # uvicorn main:app --reload
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 active_games = {} # in memory dictionary for active games. Key: game_id (UUID). Value: player_name (string)
 
@@ -51,4 +58,4 @@ def guess(request: GuessRequest):
         del active_games[game_id]
         return {"correct": True, "answer": answer}
 
-    return {"correct": False}
+    return {"correct": False, "answer": answer}
