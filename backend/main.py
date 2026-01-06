@@ -8,8 +8,10 @@ from fastapi.middleware.cors import CORSMiddleware
 class GuessRequest(BaseModel):
     game_id: str
     guess: str
+    guess_count: int
 
 df = pd.read_csv('top_N_players_features.csv')
+MAX_NUMBER_GUESSES = 4
 
 app = FastAPI()
 # uvicorn main:app --reload
@@ -48,6 +50,7 @@ def start_game():
 def guess(request: GuessRequest):
     game_id = request.game_id
     guess = request.guess
+    guess_count = request.guess_count
 
     if game_id not in active_games:
         raise HTTPException(status_code=404, detail="Game session not found")
@@ -57,5 +60,8 @@ def guess(request: GuessRequest):
     if guess.lower() in answer.lower() and len(guess) >= 3:
         del active_games[game_id]
         return {"correct": True, "answer": answer}
+    
+    if guess_count >= MAX_NUMBER_GUESSES - 1:
+        return {"correct": False, "answer": answer}
 
     return {"correct": False}

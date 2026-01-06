@@ -26,7 +26,7 @@ export function useGame() {
             return;
         }
 
-        const result = await submitGuess(gameId, guess);
+        const result = await submitGuess(gameId, guess, guessCount);
         if (result.correct) {
             setStatus("won");
             setCorrectAnswer(result.answer);
@@ -35,6 +35,7 @@ export function useGame() {
             setGuessCount(nextCount);
             
             if (nextCount >= MAX_GUESSES) {
+                setCorrectAnswer(result.answer);
                 setStatus("lost");
             }
         }

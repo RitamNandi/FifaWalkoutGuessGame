@@ -18,7 +18,7 @@ export const Autocomplete: React.FC<AutocompleteProps> = ({ onGuess, disabled })
     useEffect(() => {
         getPlayers().then(data => {
             setAllPlayers(data);
-            fuseRef.current = new Fuse(allPlayers, {
+            fuseRef.current = new Fuse(data, {
                 threshold: 0.4, // match sens
             });
         });

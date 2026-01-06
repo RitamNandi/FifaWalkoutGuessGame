@@ -15,11 +15,11 @@ export const startGame = async (): Promise<GameInitResponse> => {
     return response.json();
 }
 
-export const submitGuess = async (gameId: string, guess: string) => {
+export const submitGuess = async (gameId: string, guess: string, guessCount: number) => {
     const response = await fetch(`${BASE_URL}/guess`, {
         method: 'POST',
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({game_id: gameId, guess: guess}),
+        body: JSON.stringify({game_id: gameId, guess: guess, guess_count: guessCount}),
     });
     return response.json();
 }
