@@ -23,3 +23,8 @@ export const submitGuess = async (gameId: string, guess: string) => {
     });
     return response.json();
 }
+
+export const getPlayers = async (): Promise<string[]> => {
+    const response = await fetch(`${BASE_URL}/players`);
+    return response.json();
+}
