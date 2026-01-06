@@ -54,8 +54,8 @@ def guess(request: GuessRequest):
     
     answer = active_games[game_id]
 
-    if guess == answer:
+    if guess.lower() in answer.lower() and len(guess) >= 3:
         del active_games[game_id]
         return {"correct": True, "answer": answer}
 
-    return {"correct": False, "answer": answer}
+    return {"correct": False}

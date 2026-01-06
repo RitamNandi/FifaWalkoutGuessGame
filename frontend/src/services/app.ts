@@ -1,10 +1,17 @@
 // service layer
 const BASE_URL = "http://localhost:8000";
 
-export const startGame = async () => {
-    const response = await fetch(`${BASE_URL}/start-game`, {
-        method: 'POST'
-    });
+export interface GameInitResponse {
+    game_id: string;
+    clues: {
+        Nation: string;
+        Team: string;
+        Position: string;
+    };
+}
+
+export const startGame = async (): Promise<GameInitResponse> => {
+    const response = await fetch(`${BASE_URL}/start-game`, { method: 'POST' });
     return response.json();
 }
 
