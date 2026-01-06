@@ -1,3 +1,5 @@
+# This is my original CLI based game, not the web app backend code
+
 import random
 import pandas as pd
 
