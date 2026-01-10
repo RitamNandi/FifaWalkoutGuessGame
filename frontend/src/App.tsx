@@ -45,7 +45,7 @@ function App() {
             
             <div className="mt-4 pt-4 border-t border-gray-800 text-sm text-gray-500 font-medium flex justify-between">
               <span>Guesses</span>
-              <span className={guessCount >= MAX_GUESSES - 1 ? "text-red-500" : "text-blue-400"}>
+              <span className={status === "won" ? "text-green-500" : (guessCount >= MAX_GUESSES - 1 ? "text-red-500" : "text-blue-400")}>
                 {guessCount} / {MAX_GUESSES}
               </span>
             </div>
