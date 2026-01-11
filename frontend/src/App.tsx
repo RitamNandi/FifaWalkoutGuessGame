@@ -10,7 +10,8 @@ function App() {
     correctAnswer, 
     initGame, 
     makeGuess, 
-    MAX_GUESSES 
+    MAX_GUESSES,
+    playerId 
   } = useGame();
 
   useEffect(() => {
@@ -78,6 +79,10 @@ function App() {
             >
               Play Again
             </button>
+            {<img src={`https://ratings-images-prod.pulse.ea.com/FC26/components/items/${playerId}_en.webp`}
+              className="mt-4 mx-auto w-100 h-100 object-contain rounded-lg"
+              />
+            }
           </div>
         )}
       </div>

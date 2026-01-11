@@ -10,7 +10,7 @@ class GuessRequest(BaseModel):
     guess: str
     guess_count: int
 
-df = pd.read_csv('top_N_players_features.csv')
+df = pd.read_csv('top_N_players_features_id.csv')
 MAX_NUMBER_GUESSES = 4
 
 app = FastAPI()
@@ -43,7 +43,8 @@ def start_game():
             "Nation": player["Nation"],
             "Team": player["Team"],
             "Position": player["Position"]
-        }
+        },
+        "player_id" : player["player_id"]
     }
 
 @app.post("/guess")

@@ -9,7 +9,7 @@ def normalize_names(name):
 
 number_of_players = 200 # Constant for number of players in the game
 
-features = ['Name', 'Nation', 'Team', 'Position']
+features = ['Name', 'Nation', 'Team', 'Position', 'player_id']
 df = pd.read_csv('fc_26_players_stats.csv', nrows = number_of_players, usecols=features)
 df['lowercase_name'] = df['Name'].apply(normalize_names)
-df.to_csv("top_N_players_features.csv", index=True)
+df.to_csv("top_N_players_features_id.csv", index=True)

@@ -9,6 +9,7 @@ export function useGame() {
     const [guessCount, setGuessCount] = useState<number>(0);
     const [status, setStatus] = useState<GameStatus>("ongoing");
     const [correctAnswer, setCorrectAnswer] = useState<string | null>(null);
+    const [playerId, setPlayerId] = useState<string | null>(null);
 
     const MAX_GUESSES = 4;
     
@@ -19,6 +20,7 @@ export function useGame() {
         setGuessCount(0);
         setStatus("ongoing");
         setCorrectAnswer(null);
+        setPlayerId(data.player_id);
     };
 
     const makeGuess = async (guess: string) => {
@@ -49,7 +51,8 @@ export function useGame() {
         correctAnswer, 
         initGame, 
         makeGuess,
-        MAX_GUESSES 
+        MAX_GUESSES,
+        playerId 
     };
 
 }

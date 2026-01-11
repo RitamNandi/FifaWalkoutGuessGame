@@ -8,6 +8,7 @@ export interface GameInitResponse {
         Team: string;
         Position: string;
     };
+    player_id: string;
 }
 
 export const startGame = async (): Promise<GameInitResponse> => {
