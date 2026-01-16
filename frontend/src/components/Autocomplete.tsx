@@ -9,7 +9,6 @@ interface AutocompleteProps {
 
 export const Autocomplete: React.FC<AutocompleteProps> = ({ onGuess, disabled }) => {
     const [query, setQuery] = useState("");
-    const [allPlayers, setAllPlayers] = useState<string[]>([]);
     const [results, setResults] = useState<string[]>([]);
     const [showSuggestions, setShowSuggestions] = useState(false);
     
@@ -17,7 +16,6 @@ export const Autocomplete: React.FC<AutocompleteProps> = ({ onGuess, disabled })
 
     useEffect(() => {
         getPlayers().then(data => {
-            setAllPlayers(data);
             fuseRef.current = new Fuse(data, {
                 threshold: 0.4, // match sens
             });
