@@ -20,7 +20,7 @@
 18,Florian Wirtz,Germany,Liverpool,CAM,florian wirtz
 19,Thibaut Courtois,Belgium,Real Madrid,GK,thibaut courtois
 20,Robert Lewandowski,Poland,FC Barcelona,ST,robert lewandowski
-21,Lautaro Martínez,Argentina,Lombardia FC,ST,lautaro martinez
+21,Lautaro Martínez,Argentina,Inter Milan,ST,lautaro martinez
 22,Alexander Isak,Sweden,Liverpool,ST,alexander isak
 23,Jamal Musiala,Germany,FC Bayern München,CAM,jamal musiala
 24,Gabriel,Brazil,Arsenal,CB,gabriel
@@ -28,25 +28,25 @@
 26,Jan Oblak,Slovenia,Atlético de Madrid,GK,jan oblak
 27,Cole Palmer,England,Chelsea,CAM,cole palmer
 28,Khvicha Kvaratskhelia,Georgia,Paris SG,LW,khvicha kvaratskhelia
-29,Alessandro Bastoni,Italy,Lombardia FC,CB,alessandro bastoni
+29,Alessandro Bastoni,Italy,Inter Milan,CB,alessandro bastoni
 30,Serhou Guirassy,Guinea,Borussia Dortmund,ST,serhou guirassy
 31,Kevin De Bruyne,Belgium,SSC Napoli,CM,kevin de bruyne
 32,Frenkie de Jong,Holland,FC Barcelona,CM,frenkie de jong
 33,Moisés Caicedo,Ecuador,Chelsea,CDM,moises caicedo
 34,Declan Rice,England,Arsenal,CDM,declan rice
 35,Marquinhos,Brazil,Paris SG,CB,marquinhos
-36,Yann Sommer,Switzerland,Lombardia FC,GK,yann sommer
+36,Yann Sommer,Switzerland,Inter Milan,GK,yann sommer
 37,Jules Koundé,France,FC Barcelona,RB,jules kounde
 38,Bruno Fernandes,Portugal,Man Utd,CAM,bruno fernandes
 39,William Saliba,France,Arsenal,CB,william saliba
 40,Julián Alvarez,Argentina,Atlético de Madrid,ST,julian alvarez
 41,Jonathan Tah,Germany,FC Bayern München,CB,jonathan tah
 42,Alexis Mac Allister,Argentina,Liverpool,CM,alexis mac allister
-43,Mike Maignan,France,Milano FC,GK,mike maignan
+43,Mike Maignan,France,AC Milan,GK,mike maignan
 44,Martin odegaard,Norway,Arsenal,CM,martin odegaard
 45,David Raya,Spain,Arsenal,GK,david raya
 46,Viktor Gyökeres,Sweden,Arsenal,ST,viktor gyokeres
-47,Nicolò Barella,Italy,Lombardia FC,CM,nicolo barella
+47,Nicolò Barella,Italy,Inter Milan,CM,nicolo barella
 48,Victor Osimhen,Nigeria,Galatasaray,ST,victor osimhen
 49,Nuno Mendes,Portugal,Paris SG,LB,nuno mendes
 50,Antonio Rüdiger,Germany,Real Madrid,CB,antonio rudiger
@@ -57,7 +57,7 @@
 55,Bruno Guimarães,Brazil,Newcastle Utd,CM,bruno guimaraes
 56,Willian Pacho,Ecuador,Paris SG,CB,willian pacho
 57,Ibrahima Konaté,France,Liverpool,CB,ibrahima konate
-58,Hakan Çalhanoğlu,Turkey,Lombardia FC,CDM,hakan calhanoglu
+58,Hakan Çalhanoğlu,Turkey,Inter Milan,CDM,hakan calhanoglu
 59,Lionel Messi,Argentina,Inter Miami CF,RW,lionel messi
 60,Sandro Tonali,Italy,Newcastle Utd,CDM,sandro tonali
 61,Nico Williams,Spain,Athletic Club,LM,nico williams
@@ -65,7 +65,7 @@
 63,Marc-André ter Stegen,Germany,FC Barcelona,GK,marc-andre ter stegen
 64,Gregor Kobel,Switzerland,Borussia Dortmund,GK,gregor kobel
 65,Ederson,Brazil,Fenerbahçe,GK,ederson
-66,Federico Dimarco,Italy,Lombardia FC,LB,federico dimarco
+66,Federico Dimarco,Italy,Inter Milan,LB,federico dimarco
 67,Scott McTominay,Scotland,SSC Napoli,CM,scott mctominay
 68,Ryan Gravenberch,Holland,Liverpool,CDM,ryan gravenberch
 69,Emiliano Martínez,Argentina,Aston Villa,GK,emiliano martinez
@@ -76,7 +76,7 @@
 74,Désiré Doué,France,Paris SG,RW,desire doue
 75,Carvajal,Spain,Real Madrid,RB,carvajal
 76,Unai Simón,Spain,Athletic Club,GK,unai simon
-77,Marcus Thuram,France,Lombardia FC,ST,marcus thuram
+77,Marcus Thuram,France,Inter Milan,ST,marcus thuram
 78,Péter Gulácsi,Hungary,RB Leipzig,GK,peter gulacsi
 79,Luis Díaz,Colombia,FC Bayern München,LM,luis diaz
 80,De Gea,Spain,Fiorentina,GK,de gea
@@ -112,7 +112,7 @@
 110,Alexandra Popp,Germany,VfL Wolfsburg,ST,alexandra popp
 111,Alphonso Davies,Canada,FC Bayern München,LB,alphonso davies
 112,Jordan Pickford,England,Everton,GK,jordan pickford
-113,Denzel Dumfries,Holland,Lombardia FC,RB,denzel dumfries
+113,Denzel Dumfries,Holland,Inter Milan,RB,denzel dumfries
 114,Sergej Milinković-Savić,Serbia,Al Hilal,CM,sergej milinkovic-savic
 115,Joško Gvardiol,Croatia,Manchester City,LB,josko gvardiol
 116,Aurélien Tchouaméni,France,Real Madrid,CDM,aurelien tchouameni
@@ -131,13 +131,13 @@
 129,Cody Gakpo,Holland,Liverpool,LM,cody gakpo
 130,Bernardo Silva,Portugal,Manchester City,CM,bernardo silva
 131,Manuel Locatelli,Italy,Juventus,CDM,manuel locatelli
-132,Christian Pulisic,United States,Milano FC,RW,christian pulisic
+132,Christian Pulisic,United States,AC Milan,RW,christian pulisic
 133,Diogo Costa,Portugal,FC Porto,GK,diogo costa
 134,Ollie Watkins,England,Aston Villa,ST,ollie watkins
 135,James Maddison,England,Spurs,CM,james maddison
 136,Marco Carnesecchi,Italy,Bergamo Calcio,GK,marco carnesecchi
 137,Omar Marmoush,Egypt,Manchester City,ST,omar marmoush
-138,Rafael Leão,Portugal,Milano FC,LW,rafael leao
+138,Rafael Leão,Portugal,AC Milan,LW,rafael leao
 139,Éder Militão,Brazil,Real Madrid,CB,eder militao
 140,Romelu Lukaku,Belgium,SSC Napoli,ST,romelu lukaku
 141,Isco,Spain,Real Betis,CAM,isco
@@ -147,13 +147,13 @@
 145,Ademola Lookman,Nigeria,Bergamo Calcio,ST,ademola lookman
 146,Riyad Mahrez,Algeria,Al Ahli,RM,riyad mahrez
 147,Alexander Sorloth,Norway,Atlético de Madrid,ST,alexander sorloth
-148,Francesco Acerbi,Italy,Lombardia FC,CB,francesco acerbi
-149,Stefan de Vrij,Holland,Lombardia FC,CB,stefan de vrij
+148,Francesco Acerbi,Italy,Inter Milan,CB,francesco acerbi
+149,Stefan de Vrij,Holland,Inter Milan,CB,stefan de vrij
 150,Willi Orban,Hungary,RB Leipzig,CB,willi orban
-151,Adrien Rabiot,France,Milano FC,CAM,adrien rabiot
+151,Adrien Rabiot,France,AC Milan,CAM,adrien rabiot
 152,Eduardo Camavinga,France,Real Madrid,CM,eduardo camavinga
 153,Dominik Szoboszlai,Hungary,Liverpool,CAM,dominik szoboszlai
-154,Henrikh Mkhitaryan,Armenia,Lombardia FC,CM,henrikh mkhitaryan
+154,Henrikh Mkhitaryan,Armenia,Inter Milan,CM,henrikh mkhitaryan
 155,Lucas Torreira,Uruguay,Galatasaray,CDM,lucas torreira
 156,Giovanni Di Lorenzo,Italy,SSC Napoli,RB,giovanni di lorenzo
 157,Morten Hjulmand,Denmark,Sporting CP,CDM,morten hjulmand
@@ -172,7 +172,7 @@
 170,Thomas Partey,Ghana,Villarreal CF,CDM,thomas partey
 171,Stanislav Lobotka,Slovakia,SSC Napoli,CM,stanislav lobotka
 172,Jeremie Frimpong,Holland,Liverpool,RB,jeremie frimpong
-173,Luka Modrić,Croatia,Milano FC,CM,luka modric
+173,Luka Modrić,Croatia,AC Milan,CM,luka modric
 174,Sadio Mané,Senegal,Al Nassr,LM,sadio mane
 175,Oliver Baumann,Germany,TSG Hoffenheim,GK,oliver baumann
 176,Matheus Cunha,Brazil,Man Utd,CAM,matheus cunha

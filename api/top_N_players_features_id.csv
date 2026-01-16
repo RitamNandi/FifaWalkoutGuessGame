@@ -20,7 +20,7 @@
 18,256630,Florian Wirtz,Germany,Liverpool,CAM,florian wirtz
 19,192119,Thibaut Courtois,Belgium,Real Madrid,GK,thibaut courtois
 20,188545,Robert Lewandowski,Poland,FC Barcelona,ST,robert lewandowski
-21,231478,Lautaro Martínez,Argentina,Lombardia FC,ST,lautaro martinez
+21,231478,Lautaro Martínez,Argentina,Inter Milan,ST,lautaro martinez
 22,233731,Alexander Isak,Sweden,Liverpool,ST,alexander isak
 23,256790,Jamal Musiala,Germany,FC Bayern München,CAM,jamal musiala
 24,232580,Gabriel,Brazil,Arsenal,CB,gabriel
@@ -28,25 +28,25 @@
 26,200389,Jan Oblak,Slovenia,Atlético de Madrid,GK,jan oblak
 27,257534,Cole Palmer,England,Chelsea,CAM,cole palmer
 28,247635,Khvicha Kvaratskhelia,Georgia,Paris SG,LW,khvicha kvaratskhelia
-29,237383,Alessandro Bastoni,Italy,Lombardia FC,CB,alessandro bastoni
+29,237383,Alessandro Bastoni,Italy,Inter Milan,CB,alessandro bastoni
 30,215441,Serhou Guirassy,Guinea,Borussia Dortmund,ST,serhou guirassy
 31,192985,Kevin De Bruyne,Belgium,SSC Napoli,CM,kevin de bruyne
 32,228702,Frenkie de Jong,Holland,FC Barcelona,CM,frenkie de jong
 33,256079,Moisés Caicedo,Ecuador,Chelsea,CDM,moises caicedo
 34,234378,Declan Rice,England,Arsenal,CDM,declan rice
 35,207865,Marquinhos,Brazil,Paris SG,CB,marquinhos
-36,177683,Yann Sommer,Switzerland,Lombardia FC,GK,yann sommer
+36,177683,Yann Sommer,Switzerland,Inter Milan,GK,yann sommer
 37,241486,Jules Koundé,France,FC Barcelona,RB,jules kounde
 38,212198,Bruno Fernandes,Portugal,Man Utd,CAM,bruno fernandes
 39,243715,William Saliba,France,Arsenal,CB,william saliba
 40,246191,Julián Alvarez,Argentina,Atlético de Madrid,ST,julian alvarez
 41,213331,Jonathan Tah,Germany,FC Bayern München,CB,jonathan tah
 42,239837,Alexis Mac Allister,Argentina,Liverpool,CM,alexis mac allister
-43,215698,Mike Maignan,France,Milano FC,GK,mike maignan
+43,215698,Mike Maignan,France,AC Milan,GK,mike maignan
 44,222665,Martin Ødegaard,Norway,Arsenal,CM,martin degaard
 45,220901,David Raya,Spain,Arsenal,GK,david raya
 46,241651,Viktor Gyökeres,Sweden,Arsenal,ST,viktor gyokeres
-47,224232,Nicolò Barella,Italy,Lombardia FC,CM,nicolo barella
+47,224232,Nicolò Barella,Italy,Inter Milan,CM,nicolo barella
 48,232293,Victor Osimhen,Nigeria,Galatasaray,ST,victor osimhen
 49,252145,Nuno Mendes,Portugal,Paris SG,LB,nuno mendes
 50,205452,Antonio Rüdiger,Germany,Real Madrid,CB,antonio rudiger
@@ -57,7 +57,7 @@
 55,247851,Bruno Guimarães,Brazil,Newcastle Utd,CM,bruno guimaraes
 56,256196,Willian Pacho,Ecuador,Paris SG,CB,willian pacho
 57,237678,Ibrahima Konaté,France,Liverpool,CB,ibrahima konate
-58,208128,Hakan Çalhanoğlu,Turkey,Lombardia FC,CDM,hakan calhanoglu
+58,208128,Hakan Çalhanoğlu,Turkey,Inter Milan,CDM,hakan calhanoglu
 59,158023,Lionel Messi,Argentina,Inter Miami CF,RW,lionel messi
 60,241096,Sandro Tonali,Italy,Newcastle Utd,CDM,sandro tonali
 61,256516,Nico Williams,Spain,Athletic Club,LM,nico williams
@@ -65,7 +65,7 @@
 63,192448,Marc-André ter Stegen,Germany,FC Barcelona,GK,marc-andre ter stegen
 64,235073,Gregor Kobel,Switzerland,Borussia Dortmund,GK,gregor kobel
 65,210257,Ederson,Brazil,Fenerbahçe,GK,ederson
-66,226268,Federico Dimarco,Italy,Lombardia FC,LB,federico dimarco
+66,226268,Federico Dimarco,Italy,Inter Milan,LB,federico dimarco
 67,237238,Scott McTominay,Scotland,SSC Napoli,CM,scott mctominay
 68,246104,Ryan Gravenberch,Holland,Liverpool,CDM,ryan gravenberch
 69,202811,Emiliano Martínez,Argentina,Aston Villa,GK,emiliano martinez
@@ -76,7 +76,7 @@
 74,271421,Désiré Doué,France,Paris SG,RW,desire doue
 75,204963,Carvajal,Spain,Real Madrid,RB,carvajal
 76,230869,Unai Simón,Spain,Athletic Club,GK,unai simon
-77,228093,Marcus Thuram,France,Lombardia FC,ST,marcus thuram
+77,228093,Marcus Thuram,France,Inter Milan,ST,marcus thuram
 78,185122,Péter Gulácsi,Hungary,RB Leipzig,GK,peter gulacsi
 79,241084,Luis Díaz,Colombia,FC Bayern München,LM,luis diaz
 80,193080,De Gea,Spain,Fiorentina,GK,de gea
@@ -112,7 +112,7 @@
 110,226302,Alexandra Popp,Germany,VfL Wolfsburg,ST,alexandra popp
 111,234396,Alphonso Davies,Canada,FC Bayern München,LB,alphonso davies
 112,204935,Jordan Pickford,England,Everton,GK,jordan pickford
-113,233096,Denzel Dumfries,Holland,Lombardia FC,RB,denzel dumfries
+113,233096,Denzel Dumfries,Holland,Inter Milan,RB,denzel dumfries
 114,223848,Sergej Milinković-Savić,Serbia,Al Hilal,CM,sergej milinkovic-savic
 115,251517,Joško Gvardiol,Croatia,Manchester City,LB,josko gvardiol
 116,241637,Aurélien Tchouaméni,France,Real Madrid,CDM,aurelien tchouameni
@@ -131,13 +131,13 @@
 129,242516,Cody Gakpo,Holland,Liverpool,LM,cody gakpo
 130,218667,Bernardo Silva,Portugal,Manchester City,CM,bernardo silva
 131,222077,Manuel Locatelli,Italy,Juventus,CDM,manuel locatelli
-132,227796,Christian Pulisic,United States,Milano FC,RW,christian pulisic
+132,227796,Christian Pulisic,United States,AC Milan,RW,christian pulisic
 133,234577,Diogo Costa,Portugal,FC Porto,GK,diogo costa
 134,221697,Ollie Watkins,England,Aston Villa,ST,ollie watkins
 135,220697,James Maddison,England,Spurs,CM,james maddison
 136,252154,Marco Carnesecchi,Italy,Bergamo Calcio,GK,marco carnesecchi
 137,256675,Omar Marmoush,Egypt,Manchester City,ST,omar marmoush
-138,241721,Rafael Leão,Portugal,Milano FC,LW,rafael leao
+138,241721,Rafael Leão,Portugal,AC Milan,LW,rafael leao
 139,240130,Éder Militão,Brazil,Real Madrid,CB,eder militao
 140,192505,Romelu Lukaku,Belgium,SSC Napoli,ST,romelu lukaku
 141,197781,Isco,Spain,Real Betis,CAM,isco
@@ -147,13 +147,13 @@
 145,230899,Ademola Lookman,Nigeria,Bergamo Calcio,ST,ademola lookman
 146,204485,Riyad Mahrez,Algeria,Al Ahli,RM,riyad mahrez
 147,216549,Alexander Sørloth,Norway,Atlético de Madrid,ST,alexander srloth
-148,199845,Francesco Acerbi,Italy,Lombardia FC,CB,francesco acerbi
-149,198176,Stefan de Vrij,Holland,Lombardia FC,CB,stefan de vrij
+148,199845,Francesco Acerbi,Italy,Inter Milan,CB,francesco acerbi
+149,198176,Stefan de Vrij,Holland,Inter Milan,CB,stefan de vrij
 150,204638,Willi Orban,Hungary,RB Leipzig,CB,willi orban
-151,210008,Adrien Rabiot,France,Milano FC,CAM,adrien rabiot
+151,210008,Adrien Rabiot,France,AC Milan,CAM,adrien rabiot
 152,248243,Eduardo Camavinga,France,Real Madrid,CM,eduardo camavinga
 153,236772,Dominik Szoboszlai,Hungary,Liverpool,CAM,dominik szoboszlai
-154,192883,Henrikh Mkhitaryan,Armenia,Lombardia FC,CM,henrikh mkhitaryan
+154,192883,Henrikh Mkhitaryan,Armenia,Inter Milan,CM,henrikh mkhitaryan
 155,223959,Lucas Torreira,Uruguay,Galatasaray,CDM,lucas torreira
 156,217870,Giovanni Di Lorenzo,Italy,SSC Napoli,RB,giovanni di lorenzo
 157,244669,Morten Hjulmand,Denmark,Sporting CP,CDM,morten hjulmand
@@ -172,7 +172,7 @@
 170,209989,Thomas Partey,Ghana,Villarreal CF,CDM,thomas partey
 171,216435,Stanislav Lobotka,Slovakia,SSC Napoli,CM,stanislav lobotka
 172,253149,Jeremie Frimpong,Holland,Liverpool,RB,jeremie frimpong
-173,177003,Luka Modrić,Croatia,Milano FC,CM,luka modric
+173,177003,Luka Modrić,Croatia,AC Milan,CM,luka modric
 174,208722,Sadio Mané,Senegal,Al Nassr,LM,sadio mane
 175,193698,Oliver Baumann,Germany,TSG Hoffenheim,GK,oliver baumann
 176,240243,Matheus Cunha,Brazil,Man Utd,CAM,matheus cunha
