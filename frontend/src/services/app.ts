@@ -1,5 +1,5 @@
 // service layer
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://fifa-walkout-guess-game.vercel.app";
 
 export interface GameInitResponse {
     game_id: string;

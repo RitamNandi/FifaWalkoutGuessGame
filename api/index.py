@@ -17,7 +17,7 @@ app = FastAPI()
 # uvicorn main:app --reload
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["https://ritamnandi.github.io", "http://localhost:5173"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
