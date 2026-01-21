@@ -4,6 +4,7 @@ import pandas as pd
 import random
 import uuid
 from fastapi.middleware.cors import CORSMiddleware
+from vercel.functions import RuntimeCache
 
 class GuessRequest(BaseModel):
     game_id: str
@@ -14,7 +15,8 @@ df = pd.read_csv('top_N_players_features_id.csv')
 MAX_NUMBER_GUESSES = 4
 
 app = FastAPI()
-# uvicorn main:app --reload
+cache = RuntimeCache()
+# uvicorn index:app --reload
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["https://ritamnandi.github.io", "http://localhost:5173"],
@@ -22,7 +24,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-active_games = {} # in memory dictionary for active games. Key: game_id (UUID). Value: player_name (string)
 
 @app.get("/players")
 def get_players():
@@ -35,7 +36,7 @@ def start_game():
     answer = player["Name"]
 
     game_id = str(uuid.uuid4()) # ID for this specific game session
-    active_games[game_id] = answer # store the secret in server memory
+    cache.set(game_id, answer, {"ttl": 3600})
 
     return {
         "game_id": game_id,
@@ -52,14 +53,12 @@ def guess(request: GuessRequest):
     game_id = request.game_id
     guess = request.guess
     guess_count = request.guess_count
+    answer = cache.get(game_id)
 
-    if game_id not in active_games:
+    if answer is None:
         raise HTTPException(status_code=404, detail="Game session not found")
     
-    answer = active_games[game_id]
-
     if guess.lower() in answer.lower() and len(guess) >= 3:
-        del active_games[game_id]
         return {"correct": True, "answer": answer}
     
     if guess_count >= MAX_NUMBER_GUESSES - 1:
