@@ -5,6 +5,7 @@ import random
 import uuid
 from fastapi.middleware.cors import CORSMiddleware
 from upstash_redis import Redis
+from dotenv import load_dotenv
 
 class GuessRequest(BaseModel):
     game_id: str
@@ -15,6 +16,7 @@ df = pd.read_csv('top_N_players_features_id.csv')
 MAX_NUMBER_GUESSES = 4
 
 app = FastAPI()
+load_dotenv()
 redis = Redis.from_env()
 # uvicorn index:app --reload
 app.add_middleware(
