@@ -59,9 +59,15 @@ def guess(request: GuessRequest):
         raise HTTPException(status_code=404, detail="Game session not found")
     
     if guess.lower() in answer.lower() and len(guess) >= 3:
+        redis.delete(game_id)
         return {"correct": True, "answer": answer}
     
     if guess_count >= MAX_NUMBER_GUESSES - 1:
+        redis.delete(game_id)
         return {"correct": False, "answer": answer}
 
     return {"correct": False}
+
+@app.get("/")
+def get_health():
+    return {"API status": "live"}
