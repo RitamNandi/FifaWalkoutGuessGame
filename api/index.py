@@ -38,7 +38,11 @@ def start_game():
     answer = player["Name"]
 
     game_id = str(uuid.uuid4()) # ID for this specific game session
-    redis.set(game_id, answer, ex=3600)
+    redis.hset(game_id, values={
+        "answer": answer,
+        "player_id": player["player_id"]
+    })
+    redis.expire(game_id, 3600)
 
     return {
         "game_id": game_id,
@@ -46,8 +50,7 @@ def start_game():
             "Nation": player["Nation"],
             "Team": player["Team"],
             "Position": player["Position"]
-        },
-        "player_id" : player["player_id"]
+        }
     }
 
 @app.post("/guess")
@@ -55,18 +58,19 @@ def guess(request: GuessRequest):
     game_id = request.game_id
     guess = request.guess
     guess_count = request.guess_count
-    answer = redis.get(game_id)
+    answer = redis.hget(game_id, "answer")
+    player_id = redis.hget(game_id, "player_id")
 
     if not answer:
         raise HTTPException(status_code=404, detail="Game session not found")
     
     if guess.lower() in answer.lower() and len(guess) >= 3:
         redis.delete(game_id)
-        return {"correct": True, "answer": answer}
+        return {"correct": True, "answer": answer, "player_id": player_id}
     
     if guess_count >= MAX_NUMBER_GUESSES - 1:
         redis.delete(game_id)
-        return {"correct": False, "answer": answer}
+        return {"correct": False, "answer": answer, "player_id": player_id}
 
     return {"correct": False}
 

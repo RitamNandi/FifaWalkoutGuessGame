@@ -20,7 +20,7 @@ export function useGame() {
         setGuessCount(0);
         setStatus("ongoing");
         setCorrectAnswer(null);
-        setPlayerId(data.player_id);
+        setPlayerId(null);
     };
 
     const makeGuess = async (guess: string) => {
@@ -32,12 +32,14 @@ export function useGame() {
         if (result.correct) {
             setStatus("won");
             setCorrectAnswer(result.answer);
+            setPlayerId(result.player_id);
         } else {
             const nextCount = guessCount + 1;
             setGuessCount(nextCount);
             
             if (nextCount >= MAX_GUESSES) {
                 setCorrectAnswer(result.answer);
+                setPlayerId(result.player_id);
                 setStatus("lost");
             }
         }
